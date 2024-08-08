@@ -1,6 +1,4 @@
 # ASP.NET API with Serilog
-<img width="350" alt="image" src="https://github.com/user-attachments/assets/52b5fd93-d797-49ab-b321-cc7483a79427">
-
 <p>
   In a compliance perspective of applications, it is important to log at least info and
   errors of your application running.
