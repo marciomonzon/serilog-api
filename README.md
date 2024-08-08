@@ -1,10 +1,14 @@
 # ASP.NET API with Serilog
+
+![Design sem nome](https://github.com/user-attachments/assets/e3ba08f4-6213-490a-a8a3-43f674c32c82)
+
+
 <p>
   In a compliance perspective of applications, it is important to log at least info and
   errors of your application running.
 </p>
 <p>
-  To achieve that, there are many solutions and one of them is Serilog, a great .NET library which do with maestry the job.
+  To achieve that, there are many solutions and one of them is Serilog, a great .NET library which do the job with maestry.
 </p>
 
 <p>
