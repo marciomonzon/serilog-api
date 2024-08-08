@@ -7,6 +7,10 @@
   To achieve that, there are many solutions and one of them is Serilog, a great .NET library which do with maestry the job.
 </p>
 
+<p>
+  This is only an example project, you should not use it in a Production environment.
+</p>
+
 <br>
 
 ## Stack used
@@ -85,3 +89,38 @@ public async Task<IActionResult> PostUser(User user)
     }
 }
 ```
+
+<br>
+
+* File settings:
+```ruby
+Log.Logger = new LoggerConfiguration()
+.MinimumLevel.Error()
+.WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+.CreateLogger();
+```
+
+<br>
+
+* Screenshot of the file:
+<img width="507" alt="image" src="https://github.com/user-attachments/assets/b080c108-0ec6-44f5-acda-f1eab12d8fbf">
+
+<br>
+
+* Showing the Exception message in details. Take a look on "Invalid email format", one of the validations required.
+<img width="698" alt="image" src="https://github.com/user-attachments/assets/b01052a5-a8b0-42b1-96dd-f52420166551">
+
+<br>
+
+## Curiosities
+* You can write your logs into a Console, File or a Database Table;
+* To write into a file, database or console, you need the corresponding sink package.
+
+<br>
+
+## Documentation
+* Serilog: https://serilog.net/
+* Sinks: https://github.com/serilog/serilog/wiki/Provided-Sinks
+* SQL Server Sink: https://github.com/serilog-mssql/serilog-sinks-mssqlserver
+
+
