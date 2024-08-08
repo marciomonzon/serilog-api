@@ -34,6 +34,7 @@
 <p>
   This is an ASP.NET API which has the following characteristics:
 </p>
+
 * UserController with a POST endpoint;
 * User Model;
 * User Data Repository with an Interface;
