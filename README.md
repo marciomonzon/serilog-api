@@ -1,6 +1,6 @@
 # ASP.NET API with Serilog
 
-![Design sem nome](https://github.com/user-attachments/assets/e3ba08f4-6213-490a-a8a3-43f674c32c82)
+![serilog](https://github.com/user-attachments/assets/f47007c4-f63b-424a-8819-2fddadf0d05d)
 
 
 <p>
